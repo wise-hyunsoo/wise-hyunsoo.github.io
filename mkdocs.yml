@@ -73,7 +73,6 @@ markdown_extensions:
 
   - toc:
       permalink: true
-      title: On this page
       
 plugins:
   - search
