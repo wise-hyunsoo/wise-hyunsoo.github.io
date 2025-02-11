@@ -77,9 +77,11 @@ markdown_extensions:
 
   - toc:
       permalink: true
-      
+
 plugins:
   - search
+  - minify:
+      minify_html: true
   - roamlinks
   - blog
   - rss:
