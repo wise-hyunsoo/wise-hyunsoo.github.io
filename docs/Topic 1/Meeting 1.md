@@ -48,17 +48,32 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
-![width:700px](attachments/Pasted%20image%2020250220122200.png)
+![bg right width:700px](attachments/Pasted%20image%2020250220122200.png)
 
 ## Terminologies
 - Agent
 - Environment
+- $\mathcal{S}$: a finite set of states (상태 집합)
+- $\mathcal{A}$: a finite set of actions (행동 집합)
+- Policy $\pi: \mathcal{A}\times \mathcal{S}\rightarrow [0,1]$
+	- Optimal policy
+		- $\pi^* = \arg \max_{\pi} \mathbb{E}_{s_0\sim p_0 (s)} [V_\pi (s_0) ]$
+		- $V_{\pi^*} (s) \geq V_{\pi} (s) \ (\forall x\in \mathcal{S}, \forall \pi)$
+- Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
+- Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
+- Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
 
 ---
+# Overview of RL
+## ## Terminologies
+- Advantage function $A:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
+	- $A(s,a):=Q(s,a)-V(s)$
+- Generalized advantage estimation (GAE)
+	- Advantage function을 계산하려면 state와 action 값이 필요하다.
+	- 그런데 이러한 state, action은 (policy와 initial state의 확률분포에 depend하는) random variable이다.
+	- 따라서 Advantage function의 evaluation 결과 $A(s,a)$도 random variable
+	- 이 random variable을 estimate하기 위해 $R, V$를 통해 Monte Carlo estimate을 하는데 그 estimation의 variance를 줄이기 위해 나온 방법이 GAE
 
-## Formatting
-
-You can use regular Markdown formatting, like *emphasised* and **bold** text.
 
 ---
 
