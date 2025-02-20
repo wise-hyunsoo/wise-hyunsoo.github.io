@@ -1,9 +1,3 @@
----
-theme: beam
-marp: "true"
----
-
-<!-- _class: title -->
 # Title of the presentation
 Author's name
 University of XYZ
