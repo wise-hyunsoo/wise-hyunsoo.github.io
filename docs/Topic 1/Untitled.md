@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: neobeam-beamer
+theme: marp-black-white
 paginate: true
 size: 4:3
 title: Marp custom themes

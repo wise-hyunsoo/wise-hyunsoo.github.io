@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: black-white
+theme: neobeam
 size: 4:3
 title: Marp custom themes
 paginate: "True"
