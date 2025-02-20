@@ -33,7 +33,7 @@ University of XYZ
 
 ## Monte Carlo estimation
 Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$ 
-(Hint: )
+(Hint: [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers))
 
 
 ---
