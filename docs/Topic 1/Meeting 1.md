@@ -5,10 +5,10 @@ header: Wise (AI Lab, Vision)
 paginate: "True"
 ---
 <!-- _class: title -->
-# Title of the presentation
-Author's name
-University of XYZ
-2022-06-19
+# 2025/02/20 회의 (RL 관련 공유)
+Wise
+AI Lab
+2025-02-20
 
 ---
 <!-- _class: tinytext -->
@@ -119,3 +119,15 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 # Policy Optimization
 ## Policy Gradient Theorem
 ![Pasted image 20250220135043.png](attachments/Pasted%20image%2020250220135043.png)
+
+---
+
+# Policy Optimization
+## REINFORCE
+- Monte Carlo version
+![[Pasted image 20250220135800.png]]
+- 단점: estimation $G_t$의 분산이 큼 
+	- 해결책: baseline을 사용
+
+# Policy Optimization
+
