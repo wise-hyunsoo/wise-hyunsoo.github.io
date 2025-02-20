@@ -125,7 +125,7 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 # Policy Optimization
 ## REINFORCE
 - Monte Carlo version
-![[Pasted image 20250220135800.png]]
+![Pasted image 20250220135800.png](attachments/Pasted%20image%2020250220135800.png)
 - 단점: estimation $G_t$의 분산이 큼 
 	- 해결책: baseline을 사용
 
