@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: 
+theme: gaia
 paginate: true
 size: 4:3
 header: This is a header
