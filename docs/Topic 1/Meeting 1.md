@@ -131,3 +131,14 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 
 # Policy Optimization
 
+
+---
+# Reinforcement Learning with LLMs
+- InstructGPT
+![[Pasted image 20250220144832.png]]
+
+
+---
+# RL with LLMs
+- ChatGPT
+![index/chatgpt > Methods > Media > Chatgpt Diagram Light:width:1000px](https://images.ctfassets.net/kftzwdyauwt9/40in10B8KtAGrQvwRv5cop/8241bb17c283dced48ea034a41d7464a/chatgpt_diagram_light.png?w=3840&q=90&fm=webp)
