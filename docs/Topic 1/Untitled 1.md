@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: nord-theme
+theme: beam
 size: 4:3
 title: Marp custom themes
 paginate: "True"
