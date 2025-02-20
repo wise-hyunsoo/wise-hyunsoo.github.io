@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: neobeam
+theme: beam
 size: 4:3
 title: Marp custom themes
 paginate: "True"

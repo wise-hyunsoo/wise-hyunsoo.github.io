@@ -31,15 +31,27 @@ University of XYZ
 # Preliminaries
 ## Random variables
 $X: \Omega \rightarrow E$
+$(\Omega, \Sigma, P)$: 확률 공간 (Sample space $\Omega$, Event space $\Sigma$, Probability measure $P$)
+(with some assumptions), we also have
+### Probability density function
+$\mathbb{E}_P [f(X)]:=\int_\Omega f(X(\omega))dP(\omega)=\int_E f(x)p(x)dx=:\mathbb{E}_{x\sim p(x)} [f(x)]$
 
+> Note
+> $E$ might be complex..
+
+
+---
+# Preliminaries
 ## Monte Carlo estimation
 Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$ 
 (Hint: [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers))
 
-
 ---
-
-## this is header
+# Overview of RL
+![[Pasted image 20250220122200.png]]
+## Terminologies
+- Agent
+- Environment
 
 A demo on how to build presentations using Slides.
 
