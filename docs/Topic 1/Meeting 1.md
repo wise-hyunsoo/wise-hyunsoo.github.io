@@ -76,8 +76,11 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 
 ---
+# Overview of RL
+## GAE
+![width:700px](attachments/Pasted%20image%2020250220134342.png)
 
-## Slides
-- wow
-- hull
-- great
+---
+# Overview of RL
+## GAE
+![Pasted image 20250220134516.png](attachments/Pasted%20image%2020250220134516.png)
