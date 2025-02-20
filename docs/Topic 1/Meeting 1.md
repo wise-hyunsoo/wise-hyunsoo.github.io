@@ -1,5 +1,5 @@
 ---
-theme: beam
+theme: nordic-beamer
 footer: February 20th, 2025
 header: Wise (AI Lab, Vision)
 paginate: "True"
