@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: beam
+theme: rose-pine
 size: 4:3
 title: Marp custom themes
 paginate: "True"
