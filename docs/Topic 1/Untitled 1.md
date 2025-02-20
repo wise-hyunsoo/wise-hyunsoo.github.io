@@ -1,9 +1,9 @@
 ---
 marp: true
-theme: rose-pine
-paginate: true
+theme: nord-theme
 size: 4:3
 title: Marp custom themes
+paginate: "True"
 ---
 <!-- _class: title -->
 
