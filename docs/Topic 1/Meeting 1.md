@@ -151,3 +151,11 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 
 ---
 # RL with LLMs
+- DeepSeek-R1-Zero
+	- RL on the Base Model
+![width:500px](attachments/Pasted%20image%2020250220145739.png)
+
+---
+# Reinforcement Learning with Verifiable Rewards
+## RLVR
+![[Pasted image 20250220145854.png]]
