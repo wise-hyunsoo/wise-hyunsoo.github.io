@@ -30,6 +30,7 @@ University of XYZ
 
 # Preliminaries
 ## Random variables
+$X: \Omega \rightarrow E$
 
 ## Monte Carlo estimation
 Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$ 
