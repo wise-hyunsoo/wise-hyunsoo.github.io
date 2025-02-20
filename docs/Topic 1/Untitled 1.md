@@ -19,15 +19,7 @@ University of XYZ
 
 # A normal slide
 
-# H1 again
-## H2
-### H3
-- bullet
-> quote
-```
-code
-```
-text
+
 
 ---
 # Title page ad hoc fix
