@@ -129,7 +129,9 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 - 단점: estimation $G_t$의 분산이 큼 
 	- 해결책: baseline을 사용
 
+---
 # Policy Optimization
+- PPO
 
 
 ---
@@ -158,4 +160,9 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 ---
 # Reinforcement Learning with Verifiable Rewards
 ## RLVR
-![[Pasted image 20250220145854.png]]
+![width:1000px](attachments/Pasted%20image%2020250220150025.png)
+
+---
+# RLVR
+- Tulu 3
+![Pasted image 20250220150058.png](attachments/Pasted%20image%2020250220150058.png)
