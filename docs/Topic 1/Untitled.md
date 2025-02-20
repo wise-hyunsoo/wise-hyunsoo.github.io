@@ -1,10 +1,8 @@
 ---
 marp: true
-theme: gaia
+theme: 
 paginate: true
 size: 4:3
-header: This is a header
-footer: This is a footer
 title: Marp custom themes
 ---
 <!-- _class: title -->
