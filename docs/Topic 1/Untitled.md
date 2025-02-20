@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: rose-pine
+theme: neobeam
 paginate: true
 size: 4:3
 title: Marp custom themes
