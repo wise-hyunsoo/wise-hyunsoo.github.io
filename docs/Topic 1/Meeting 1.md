@@ -65,7 +65,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
-## ## Terminologies
+## Terminologies
 - Advantage function $A:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
 	- $A(s,a):=Q(s,a)-V(s)$
 - Generalized advantage estimation (GAE)
