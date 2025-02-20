@@ -1,5 +1,5 @@
 ---
-theme: neobeam
+theme: beam
 footer: February 20th, 2025
 header: Wise (AI Lab, Vision)
 paginate: "True"
@@ -12,7 +12,15 @@ University of XYZ
 
 ---
 # Contents
-ddd
+- Overview of RL
+	- Terminologies
+	- Value-based / Policy-based / Model-based RL
+- Policy Optimization
+	- Policy Gradient Theorem
+	- REINFORCE
+	- PPO
+- Reinforcement Learning with Verifiable Rewards
+- 
 
 ---
 
