@@ -1,7 +1,8 @@
 ---
 theme: beam
-footer: footer
-header:
+footer: February 20th, 2025
+header: Wise (AI Lab, Vision)
+paginate: "True"
 ---
 <!-- _class: title -->
 # Title of the presentation
