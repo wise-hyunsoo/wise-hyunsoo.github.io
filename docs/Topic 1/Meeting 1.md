@@ -48,12 +48,11 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
-![[Pasted image 20250220122200.png]]
+![width:700px](attachments/Pasted%20image%2020250220122200.png)
+
 ## Terminologies
 - Agent
 - Environment
-
-A demo on how to build presentations using Slides.
 
 ---
 
