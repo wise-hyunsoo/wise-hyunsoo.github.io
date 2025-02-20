@@ -2,9 +2,21 @@
 theme: beam
 marp: "true"
 ---
-# Presentations using Slides
 
-# this is header
+<!-- _class: title -->
+# Title of the presentation
+Author's name
+University of XYZ
+2022-06-19
+
+---
+
+# Presentation
+ddd
+
+---
+
+## this is header
 
 A demo on how to build presentations using Slides.
 
