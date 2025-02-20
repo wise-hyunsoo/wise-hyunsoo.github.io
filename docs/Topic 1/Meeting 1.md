@@ -21,7 +21,7 @@ University of XYZ
 	- Value-based / Policy-based / Model-based RL
 - Policy Optimization
 	- Policy Gradient Theorem
-	- REINFORCE & GAE
+	- REINFORCE
 	- PPO
 - Reinforcement Learning with LLMs
 - Reinforcement Learning with Verifiable Rewards
@@ -84,3 +84,38 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 # Overview of RL
 ## GAE
 ![Pasted image 20250220134516.png](attachments/Pasted%20image%2020250220134516.png)
+
+---
+# Overview of RL
+## Objective function of RL
+
+$$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
+- policy를 neural network의 parameter $\theta$를 도입하여 위의 목적함수를 최대화하도록 훈련해서 optimal policy를 얻고자 하는 것이 RL의 목표
+
+---
+
+# Overview of RL
+
+- Value-based RL
+	- Q functiond을 학습하여 $\pi(s) = \arg \max_{a\in \mathcal{A}} Q(s,a)$를 policy로 사용
+	- 단점
+		- function approximation (such as neural networks)
+		- bootstrapped value function estimation (TD-like method)
+		- off-policy learning
+		- This combination : `the deadly triad`
+		- RL 알고리즘 불안정함
+- Policy-based RL
+	- Policy search method
+	- 대부분 policy gradient 방법론 사용
+- Model-based RL (MBRL)
+
+
+--- 
+# Overview of RL
+## Classification of RL
+![Pasted image 20250220135415.png](attachments/Pasted%20image%2020250220135415.png)
+
+---
+# Policy Optimization
+## Policy Gradient Theorem
+![Pasted image 20250220135043.png](attachments/Pasted%20image%2020250220135043.png)
