@@ -62,7 +62,6 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
 ::: split
-
 <br> <br>
 ![width:800px](attachments/Pasted%20image%2020250220122200.png)
 ::::
@@ -71,10 +70,9 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 # Overview of RL
 :::: columns
 tiny
-
 ::: split
-wow asdfadfasdf
 
+wow asdfadfasdf
 ::::
 
 ---
