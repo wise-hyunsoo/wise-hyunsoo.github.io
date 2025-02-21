@@ -20,7 +20,7 @@ section {
   background-position: center bottom;
   background-size: 150% 1em;
   padding: 2em;
-}
+}.columns { column-count: 2; }
 
 header {
   font-size: 0.6em;
