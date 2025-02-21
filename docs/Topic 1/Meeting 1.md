@@ -49,7 +49,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 <!-- _class: tinytext -->
 # Overview of RL
-:::: columns
+::::columns
 - Agent
 - Environment
 - $\mathcal{S}$: a finite set of states (상태 집합)
@@ -61,7 +61,8 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
 - Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
-::: split
+
+::::split
 
 ![width:800px](attachments/Pasted%20image%2020250220122200.png)
 
