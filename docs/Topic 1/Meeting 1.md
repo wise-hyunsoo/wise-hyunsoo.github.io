@@ -52,6 +52,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ::: columns
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
 perferendis, dolorem amet adipisci quas rem iusto excepturi ipsam aperiam quo
+
 expedita totam a laborum ut voluptatibus voluptate fugit voluptatem eum?
 :::
 
