@@ -20,7 +20,10 @@ section {
   background-position: center bottom;
   background-size: 150% 1em;
   padding: 2em;
-}.columns { column-count: 2; }
+}.columns { display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 2em; }
 
 header {
   font-size: 0.6em;

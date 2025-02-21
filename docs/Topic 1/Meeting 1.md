@@ -61,8 +61,12 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
 - Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
+  
 
-expedita totam a laborum ut voluptatibus voluptate fugit voluptatem eum?
+<img
+  class="fit-picture"
+  src="attachments/Pasted%20image%2020250220122200.png"
+  alt="Grapefruit slice atop a pile of other slices" />
 :::
 
 ---
