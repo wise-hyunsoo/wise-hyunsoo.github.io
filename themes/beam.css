@@ -23,6 +23,7 @@ section {
 }.columns {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     column-count: 2;
     column-gap: 2em;
 }
