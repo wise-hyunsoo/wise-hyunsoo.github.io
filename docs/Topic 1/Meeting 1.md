@@ -49,7 +49,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 <!-- _class: tinytext -->
 # Overview of RL
-::: columns
+:::: columns
 - Agent
 - Environment
 - $\mathcal{S}$: a finite set of states (상태 집합)
@@ -61,13 +61,13 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
 - Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
-  
 
-<img
-  class="fit-picture"
-  src="attachments/Pasted%20image%2020250220122200.png"
-  alt="Grapefruit slice atop a pile of other slices" />
-:::
+
+Advantage function을 계산하려면 state와 action 값이 필요하다.
+
+
+![width:800px](attachments/Pasted%20image%2020250220122200.png)
+::::
 
 ---
 # Overview of RL
