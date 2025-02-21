@@ -48,12 +48,8 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
-
---- start-multi-column: ExampleRegion1  
-```column-settings  
-number of columns: 2  
-largest column: left  
-```
+````col
+```col-md
 - Agent
 - Environment
 - $\mathcal{S}$: a finite set of states (상태 집합)
@@ -65,12 +61,11 @@ largest column: left
 - Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
 - Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
-
---- end-column ---
-
-TexWOwnae
-
---- end-multi-column
+```
+```col-md
+Column B
+```
+````
 
 ---
 # Overview of RL
