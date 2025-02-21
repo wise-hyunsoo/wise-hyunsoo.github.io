@@ -69,12 +69,9 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 # Overview of RL
 :::: columns
-:::: columns
-tinydddsfsdfsdfsdfsdfsdfsfdsdfsdfsfsdsfsdf
-:::: columns
-:::: columns
-wow
+tinyd
 
+wow
 ::::
 
 ---
