@@ -23,7 +23,8 @@ section {
 }.columns { display: flex;
     flex-direction: row;
     justify-content: space-between;
-    column-gap: 2em; }
+    column-gap: 2em;
+    column-count: 2; }
 
 header {
   font-size: 0.6em;
