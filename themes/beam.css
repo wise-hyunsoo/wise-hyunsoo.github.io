@@ -24,6 +24,7 @@ section {
     display: flex;
     flex-direction: row;
     column-gap: 2em;
+    column-count: 2;
 }
 
 
