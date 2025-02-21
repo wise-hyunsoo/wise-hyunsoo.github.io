@@ -48,43 +48,12 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
-````col
-```col-md
-- Agent
-- Environment
-- $\mathcal{S}$: a finite set of states (상태 집합)
-- $\mathcal{A}$: a finite set of actions (행동 집합)
-- Policy $\pi: \mathcal{A}\times \mathcal{S}\rightarrow [0,1]$
-	- Optimal policy
-		- $\pi^* = \arg \max_{\pi} \mathbb{E}_{s_0\sim p_0 (s)} [V_\pi (s_0) ]$
-		- $V_{\pi^*} (s) \geq V_{\pi} (s) \ (\forall x\in \mathcal{S}, \forall \pi)$
-- Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
-- Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
-- Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
-```
-```col-md
-Column B
-```
-````
-
----
-# Overview of RL
 <div style="width: 100%;">
   <div style="width: 50%; float: left;">
-- Agent
-- Environment
-- $\mathcal{S}$: a finite set of states (상태 집합)
-- $\mathcal{A}$: a finite set of actions (행동 집합)
-- Policy $\pi: \mathcal{A}\times \mathcal{S}\rightarrow [0,1]$
-	- Optimal policy
-		- $\pi^* = \arg \max_{\pi} \mathbb{E}_{s_0\sim p_0 (s)} [V_\pi (s_0) ]$
-		- $V_{\pi^*} (s) \geq V_{\pi} (s) \ (\forall x\in \mathcal{S}, \forall \pi)$
-- Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
-- Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
-- Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
+- agent
+- environment
 </div>
 <div style="width: 50%; float: right;">
-<br>
 <br>
 <br>
 <img
