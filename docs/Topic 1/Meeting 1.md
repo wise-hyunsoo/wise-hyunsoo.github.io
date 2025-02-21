@@ -48,6 +48,39 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
+<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+- Agent
+- Environment
+- $\mathcal{S}$: a finite set of states (상태 집합)
+- $\mathcal{A}$: a finite set of actions (행동 집합)
+- Policy $\pi: \mathcal{A}\times \mathcal{S}\rightarrow [0,1]$
+	- Optimal policy
+		- $\pi^* = \arg \max_{\pi} \mathbb{E}_{s_0\sim p_0 (s)} [V_\pi (s_0) ]$
+		- $V_{\pi^*} (s) \geq V_{\pi} (s) \ (\forall x\in \mathcal{S}, \forall \pi)$
+- Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
+- Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
+- Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
+</div>
+
+<div class="col">
+Column 2 Content
+![](attachments/Pasted%20image%2020250220122200.png)
+</div>
+
+</div>
+---
+# Overview of RL
 ![bg right width:700px](attachments/Pasted%20image%2020250220122200.png)
 
 ## Terminologies
