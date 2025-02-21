@@ -21,16 +21,10 @@ section {
   background-size: 150% 1em;
   padding: 2em;
 }.columns {
+    display: flex;
+    flex-direction: row;
     column-count: 2;
     column-gap: 2em;
-}.single {
-    flex: 1 1;
-}.double {
-    flex: 2 1;
-}.triple {
-    flex: 3 1;
-}.quad {
-    flex: 4 1;
 }
 
 
@@ -149,5 +143,5 @@ section.title>p {
 section.tinytext>p,
 section.tinytext>ul,
 section.tinytext>blockquote {
-  font-size: 0.65em;
+  font-size: 0.8em;
 }

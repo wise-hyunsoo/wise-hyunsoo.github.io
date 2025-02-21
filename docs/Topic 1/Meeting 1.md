@@ -63,45 +63,11 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
 
 :::: split
+<br> <br>
 
 ![width:800px](attachments/Pasted%20image%2020250220122200.png)
 
 ::::
-
----
-# Overview of RL
-<div style="width: 100%;">
-  <div style="width: 50%; float: left;">
-- agent
-- environment
-</div>
-<div style="width: 50%; float: right;">
-<br>
-<br>
-<img
-  class="fit-picture"
-  src="attachments/Pasted%20image%2020250220122200.png"
-  alt="Grapefruit slice atop a pile of other slices" />
-</div>
-</div>
-
----
-<!-- _class: tinytext -->
-# Overview of RL
-![bg right width:500px](attachments/Pasted%20image%2020250220122200.png)
-
-## Terminologies
-- Agent
-- Environment
-- $\mathcal{S}$: a finite set of states (상태 집합)
-- $\mathcal{A}$: a finite set of actions (행동 집합)
-- Policy $\pi: \mathcal{A}\times \mathcal{S}\rightarrow [0,1]$
-	- Optimal policy
-		- $\pi^* = \arg \max_{\pi} \mathbb{E}_{s_0\sim p_0 (s)} [V_\pi (s_0) ]$
-		- $V_{\pi^*} (s) \geq V_{\pi} (s) \ (\forall x\in \mathcal{S}, \forall \pi)$
-- Reward $R:\mathcal{A}\times \mathcal{S}\rightarrow \mathbb{R}$
-- Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
-- Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
 
 ---
 # Overview of RL
@@ -118,7 +84,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 # Overview of RL
 ## GAE
-![width:700px](attachments/Pasted%20image%2020250220134342.png)
+![w:650 center](attachments/Pasted%20image%2020250220134342.png)
 
 ---
 # Overview of RL
@@ -133,9 +99,8 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 - policy를 neural network의 parameter $\theta$를 도입하여 위의 목적함수를 최대화하도록 훈련해서 optimal policy를 얻고자 하는 것이 RL의 목표
 
 ---
-
+<!-- _class: tinytext -->
 # Overview of RL
-
 - Value-based RL
 	- Q functiond을 학습하여 $\pi(s) = \arg \max_{a\in \mathcal{A}} Q(s,a)$를 policy로 사용
 	- 단점
@@ -177,13 +142,13 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 ---
 # Reinforcement Learning with LLMs
 - InstructGPT
-![width:700px](attachments/Pasted%20image%2020250220144832.png)
+![width:650px center](attachments/Pasted%20image%2020250220144832.png)
 
 
 ---
 # RL with LLMs
 - ChatGPT
-![width:900px](attachments/chatgpt_diagram_light.png)
+![width:800px center](attachments/chatgpt_diagram_light.png)
 
 
 ---
@@ -195,12 +160,12 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 # RL with LLMs
 - DeepSeek-R1-Zero
 	- RL on the Base Model
-![width:500px](attachments/Pasted%20image%2020250220145739.png)
+![width:500px center](attachments/Pasted%20image%2020250220145739.png)
 
 ---
 # Reinforcement Learning with Verifiable Rewards
 ## RLVR
-![width:1000px](attachments/Pasted%20image%2020250220150025.png)
+![width:900px center](attachments/Pasted%20image%2020250220150025.png)
 
 ---
 # RLVR
