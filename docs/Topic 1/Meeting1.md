@@ -63,7 +63,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
 
 <br> <br>
-![width:800px](attachments/Pasted%20image%2020250220122200.png)
+![width:800px](Pasted%20image%2020250220122200.png)
 ::::
 
 ---
@@ -89,12 +89,12 @@ wow
 ---
 # Overview of RL
 ## GAE
-![w:650 center](attachments/Pasted%20image%2020250220134342.png)
+![w:650 center](Pasted%20image%2020250220134342.png)
 
 ---
 # Overview of RL
 ## GAE
-![Pasted image 20250220134516.png](attachments/Pasted%20image%2020250220134516.png)
+![Pasted image 20250220134516.png](Pasted%20image%2020250220134516.png)
 
 ---
 # Overview of RL
@@ -123,19 +123,19 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 --- 
 # Overview of RL
 ## Classification of RL
-![Pasted image 20250220135415.png](attachments/Pasted%20image%2020250220135415.png)
+![Pasted image 20250220135415.png](Pasted%20image%2020250220135415.png)
 
 ---
 # Policy Optimization
 ## Policy Gradient Theorem
-![Pasted image 20250220135043.png](attachments/Pasted%20image%2020250220135043.png)
+![Pasted image 20250220135043.png](Pasted%20image%2020250220135043.png)
 
 ---
 
 # Policy Optimization
 ## REINFORCE
 - Monte Carlo version
-![Pasted image 20250220135800.png](attachments/Pasted%20image%2020250220135800.png)
+![Pasted image 20250220135800.png](Pasted%20image%2020250220135800.png)
 - 단점: estimation $G_t$의 분산이 큼 
 	- 해결책: baseline을 사용
 
@@ -147,32 +147,32 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 ---
 # Reinforcement Learning with LLMs
 - InstructGPT
-![width:650px center](attachments/Pasted%20image%2020250220144832.png)
+![width:650px center](Pasted%20image%2020250220144832.png)
 
 
 ---
 # RL with LLMs
 - ChatGPT
-![width:800px center](attachments/chatgpt_diagram_light.png)
+![width:800px center](chatgpt_diagram_light.png)
 
 
 ---
 # RL with LLMs
 
-![Pasted image 20250220145451.png](attachments/Pasted%20image%2020250220145451.png)
+![Pasted image 20250220145451.png](Pasted%20image%2020250220145451.png)
 
 ---
 # RL with LLMs
 - DeepSeek-R1-Zero
 	- RL on the Base Model
-![width:500px center](attachments/Pasted%20image%2020250220145739.png)
+![width:500px center](Pasted%20image%2020250220145739.png)
 
 ---
 # Reinforcement Learning with Verifiable Rewards
 ## RLVR
-![width:900px center](attachments/Pasted%20image%2020250220150025.png)
+![width:900px center](Pasted%20image%2020250220150025.png)
 
 ---
 # RLVR
 - Tulu 3
-![Pasted image 20250220150058.png](attachments/Pasted%20image%2020250220150058.png)
+![Pasted image 20250220150058.png](Pasted%20image%2020250220150058.png)
