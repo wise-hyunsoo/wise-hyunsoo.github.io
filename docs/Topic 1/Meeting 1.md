@@ -47,6 +47,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 (Hint: [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers))
 
 ---
+<!-- _class: tinytext -->
 # Overview of RL
 ::: columns
 - Agent
