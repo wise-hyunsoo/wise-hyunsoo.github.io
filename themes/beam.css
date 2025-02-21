@@ -20,9 +20,7 @@ section {
   background-position: center bottom;
   background-size: 150% 1em;
   padding: 2em;
-}
-
-section.columns {
+}.columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2em;
