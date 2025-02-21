@@ -23,9 +23,8 @@ section {
 }.columns {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     column-gap: 2em;
-}.split{}
+}
 
 
 header {
