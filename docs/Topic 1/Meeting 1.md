@@ -69,6 +69,14 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
+:::: columns
+- tiny
+:::: split
+wow 
+::::
+
+---
+# Overview of RL
 ## Terminologies
 - Advantage function $A:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
 	- $A(s,a):=Q(s,a)-V(s)$
