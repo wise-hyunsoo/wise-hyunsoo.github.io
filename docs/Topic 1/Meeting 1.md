@@ -1,5 +1,5 @@
 ---
-theme: 
+theme: beam
 footer: February 20th, 2025
 header: Wise (AI Lab, Vision)
 paginate: "True"
@@ -95,8 +95,9 @@ Column B
 </div>
 
 ---
+<!-- _class: tinytext -->
 # Overview of RL
-![bg right width:700px](attachments/Pasted%20image%2020250220122200.png)
+![bg right width:500px](attachments/Pasted%20image%2020250220122200.png)
 
 ## Terminologies
 - Agent
