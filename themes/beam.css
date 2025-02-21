@@ -22,12 +22,6 @@ section {
   padding: 2em;
 }
 
-.columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2em;
-}
-
 
 header {
   font-size: 0.6em;
@@ -103,6 +97,12 @@ section::after {
 /* inline math was too large wrt text */
 .katex {
   font: normal 1.05em KaTeX_Main, "Times New Roman", serif
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
 }
 
 /* the "center" keyword centers the image - may break, careful */
