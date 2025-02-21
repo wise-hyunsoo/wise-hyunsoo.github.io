@@ -48,6 +48,15 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
+
+::: columns
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
+perferendis, dolorem amet adipisci quas rem iusto excepturi ipsam aperiam quo
+expedita totam a laborum ut voluptatibus voluptate fugit voluptatem eum?
+:::
+
+---
+# Overview of RL
 <div style="width: 100%;">
   <div style="width: 50%; float: left;">
 - agent
