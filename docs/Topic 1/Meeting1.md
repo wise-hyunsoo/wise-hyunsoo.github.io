@@ -3,6 +3,7 @@ theme: beam
 footer: February 20th, 2025
 header: Wise (AI Lab, Vision)
 paginate: "True"
+marp: "True"
 ---
 <!-- _class: title -->
 # 2025/02/20 회의 (RL 관련 공유)
