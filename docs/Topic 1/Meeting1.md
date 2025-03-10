@@ -87,6 +87,8 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - test
 - wow
 - great
+- gg
+
 
 </div>
 <div class="columns-right">
