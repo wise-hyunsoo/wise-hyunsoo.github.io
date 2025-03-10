@@ -79,7 +79,7 @@ markdown_extensions:
       permalink: true
 
 draft_docs: |
-  docs/Topic 1/  
+  "docs/Topic 1/*"  
 
 plugins:
   - exclude:
