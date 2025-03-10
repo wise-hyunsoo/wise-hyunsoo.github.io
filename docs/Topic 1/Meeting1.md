@@ -1,5 +1,4 @@
 ---
-marp: "True"
 theme: beam
 footer: February 20th, 2025
 header: Wise (AI Lab, Vision)
