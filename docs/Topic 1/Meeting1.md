@@ -3,6 +3,7 @@ theme: beam
 footer: February 20th, 2025
 header: Wise (AI Lab, Vision)
 paginate: "True"
+style: "|  .columns {    display: flex;    grid-template-columns: repeat(2, minmax(0, 1fr));    gap: 1rem;  }  .columns-left {    background: white;  }  .columns-right {    background: white;  }"
 ---
 <!-- _class: title -->
 # 2025/02/20 회의 (RL 관련 공유)
@@ -49,8 +50,10 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 <!-- _class: tinytext -->
 # Overview of RL
-:::columns
+<div class="columns">
+<div class="columns-left">
 
+<br> <br>
 - Agent
 - Environment
 - $\mathcal{S}$: a finite set of states (상태 집합)
@@ -63,15 +66,14 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - Value function $V:\mathcal{S}\rightarrow \mathbb{R}$
 - Q-function $Q:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$ 
 
-:::
-:::columns 
+</div>
+<div class="columns-right">
+
 <br> <br>
 ![width:800px](attachments/Pasted%20image%2020250220122200.png)
-\
 
-
-:::
-
+</div>
+</div>
 
 
 
@@ -79,15 +81,15 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
-
-:::columns
+<div class="columns">
+<div class="columns-left">
 tinyd
 
-:::
-:::columns
-wow
+</div>
+<div class="columns-right">
 
-:::
+wow
+</div>
 
 ---
 # Overview of RL
