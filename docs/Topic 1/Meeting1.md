@@ -1,5 +1,5 @@
 ---
-style: beam
+theme: beam
 footer: February 20th, 2025
 header: Wise (AI Lab, Vision)
 paginate: "True"
@@ -49,7 +49,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 <!-- _class: tinytext -->
 # Overview of RL
-:::: columns
+
 - Agent
 - Environment
 - $\mathcal{S}$: a finite set of states (상태 집합)
@@ -64,15 +64,16 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 <br> <br>
 ![width:800px](attachments/Pasted%20image%2020250220122200.png)
-::::
+\
 
 ---
 # Overview of RL
-:::: columns
+
 tinyd
 
+
 wow
-::::
+
 
 ---
 # Overview of RL
