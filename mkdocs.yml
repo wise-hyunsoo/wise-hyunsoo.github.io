@@ -79,6 +79,9 @@ markdown_extensions:
       permalink: true
 
 plugins:
+  - exclude:
+      glob:
+        - "docs/Topic 1/*"
   - search
   - minify:
       minify_html: true
