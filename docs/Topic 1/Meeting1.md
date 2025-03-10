@@ -83,7 +83,10 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 # Overview of RL
 <div class="columns">
 <div class="columns-left">
-tinyd
+
+- test
+- wow
+- great
 
 </div>
 <div class="columns-right">
