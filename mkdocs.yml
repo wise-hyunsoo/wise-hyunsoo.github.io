@@ -81,6 +81,8 @@ markdown_extensions:
 draft_docs: |
   "Topic 1/"
   "docs/Topic 1/"
+  Topic 1/
+  docs/Topic 1/
   Meeting1.md
 
 plugins:
