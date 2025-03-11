@@ -38,7 +38,7 @@ $(\Omega, \Sigma, P)$: 확률 공간 (Sample space $\Omega$, Event space $\Sigma
 $\mathbb{E}_P [f(X)]:=\int_\Omega f(X(\omega))dP(\omega)=\int_E f(x)p(x)dx=:\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 > Note
-> $E$ might be complex.. sequences.. $\ell_p$ spaces.. ($1\leq p \leq \infty$) dfsfdfdd
+> $E$ might be complex.. sequences.. $\ell_p$ spaces.. ($1\leq p \leq \infty$)
 
 ---
 # Preliminaries
