@@ -79,12 +79,11 @@ markdown_extensions:
       permalink: true
 
 draft_docs: |
-  "Topic 1/"  
+  "Topic 1/"
+  "docs/Topic 1/"
+  Meeting1.md
 
 plugins:
-  - exclude:
-      glob:
-        - "docs/Topic 1/*"
   - search
   - minify:
       minify_html: true
