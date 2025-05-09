@@ -28,19 +28,24 @@ AI Lab
 	- Probability Flow ODE sampling
 
 ---
-
+<!-- _class: tinytext -->
 # Mathematical preliminaries
 ## Integration (in $\mathbb{R}$ and $\mathbb{R}^n$)
-
 ### Riemann Integral
-![Pasted image 20250509121540.png](attachments/Pasted%20image%2020250509121540.png)
-### Riemann-Stieltjes Integral
-$X: \Omega \rightarrow E$
-$(\Omega, \Sigma, P)$: 확률 공간 (Sample space $\Omega$, Event space $\Sigma$, Probability measure $P$)
-(with some assumptions), we also have
 
-> Note
-> $E$ might be complex.. sequences.. $\ell_p$ spaces.. ($1\leq p \leq \infty$)
+<p align="center">
+
+<img src="attachments/Pasted%20image%2020250509121540.png" width="350"/>
+</p>
+
+### Riemann-Stieltjes Integral
+- Bounded variation and Riemann-Stieltjes Sum
+$$
+BV(f,[a,b]) := \sup_{P} \bigg( \sum_{i=1}^n \Big|f(x_i)-f(x_{i-1})\Big| \bigg)
+$$
+$$
+S(f,P,g) := \sum_{i=1}^{n} f(x_i^*) (g(x_i)-g(x_{i-1}))
+$$
 
 ---
 # Preliminaries
@@ -82,6 +87,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
+
 <div class="columns">
 <div class="columns-left">
 
@@ -90,15 +96,16 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 - great
 - gg
 - wownae
-
-
 </div>
 <div class="columns-right">
 
 wow
 </div>
+</div>
+
 
 ---
+
 # Overview of RL
 ## Terminologies
 - Advantage function $A:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
