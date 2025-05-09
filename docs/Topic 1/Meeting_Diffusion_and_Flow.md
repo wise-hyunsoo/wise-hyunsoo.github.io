@@ -57,9 +57,15 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 (Hint: [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers))
 
 ---
+# Pre
+## Manifolds
+> Note (Wikipedia - Manifold)
+![Pasted image 20250509134627.png](attachments/Pasted%20image%2020250509134627.png)
+
+---
 # Preliminaries
 ## Integration on manifolds
-![[Pasted image 20250509134435.png]]
+![Pasted image 20250509134435.png](attachments/Pasted%20image%2020250509134435.png)
 
 
 ---
