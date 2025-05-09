@@ -143,21 +143,7 @@ wow
 
 ---
 
-# Overview of RL
-## Terminologies
-- Advantage function $A:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
-	- $A(s,a):=Q(s,a)-V(s)$
-- Generalized advantage estimation (GAE)
-	- Advantage function을 계산하려면 state와 action 값이 필요하다.
-	- 그런데 이러한 state, action은 (policy와 initial state의 확률분포에 depend하는) random variable이다.
-	- 따라서 Advantage function의 evaluation 결과 $A(s,a)$도 random variable
-	- 이 random variable을 estimate하기 위해 $R, V$를 통해 Monte Carlo estimate을 하는데 그 estimation의 variance를 줄이기 위해 나온 방법이 GAE
 
-
----
-# Overview of RL
-## GAE
-![w:650 center](attachments/Pasted%20image%2020250220134342.png)
 
 ---
 # Overview of RL
@@ -186,30 +172,6 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 	- Policy search method
 	- 대부분 policy gradient 방법론 사용
 - Model-based RL (MBRL)
-
-
---- 
-# Overview of RL
-## Classification of RL
-![Pasted image 20250220135415.png](attachments/Pasted%20image%2020250220135415.png)
-
----
-# Policy Optimization
-## Policy Gradient Theorem
-![Pasted image 20250220135043.png](attachments/Pasted%20image%2020250220135043.png)
-
----
-
-# Policy Optimization
-## REINFORCE
-- Monte Carlo version
-![Pasted image 20250220135800.png](attachments/Pasted%20image%2020250220135800.png)
-- 단점: estimation $G_t$의 분산이 큼 
-	- 해결책: baseline을 사용
-
----
-# Policy Optimization
-- PPO
 
 
 ---
