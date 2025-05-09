@@ -49,7 +49,10 @@ $$
 
 ---
 # Preliminaries
-## Monte Carlo estimation
+## Integration on manifolds
+
+![Pasted image 20250509133954.png](attachments/Pasted%20image%2020250509133954.png)
+
 Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$ 
 (Hint: [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers))
 
