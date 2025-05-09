@@ -65,8 +65,15 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 # Preliminaries
 ## Integration on manifolds
-![Pasted image 20250509134435.png](attachments/Pasted%20image%2020250509134435.png)
 
+<p align="center">
+
+<img src="attachments/Pasted%20image%2020250509134435.png" width="1000"/>
+</p>
+
+$$
+\int_{U \subset \mathcal{M}} \omega = \int_{\varphi(U)} (\varphi^{-1})^* \omega
+$$
 
 ---
 <!-- _class: tinytext -->
