@@ -63,12 +63,27 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ![Pasted image 20250509134627.png](attachments/Pasted%20image%2020250509134627.png)
 
 ---
+# Pre
+## Manifolds
+
+<div class="columns">
+<div class="columns-left">
+
+![Pasted image 20250509141840.png](attachments/Pasted%20image%2020250509141840.png)
+</div>
+<div class="columns-right">
+
+![Pasted image 20250509141814.png](attachments/Pasted%20image%2020250509141814.png)
+</div>
+</div>
+
+---
 # Preliminaries
 ## Integration on manifolds
 
 <p align="center">
 
-<img src="attachments/Pasted%20image%2020250509134435.png" width="1000"/>
+<img src="attachments/Pasted%20image%2020250509134435.png" width="800"/>
 </p>
 
 $$
