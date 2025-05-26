@@ -216,3 +216,16 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 
 - Reinforcement Learning Finetunes Small Subnetworks in Large Language Models
 ![width:800px center](attachments/Pasted%20image%2020250526110002.png)
+
+---
+# Appendix
+ - Reinforcement Learning Finetunes Small Subnetworks in Large Language Models
+ 
+![width:900px center](attachments/Pasted%20image%2020250526112505.png)
+
+
+---
+# Appendix
+- Reinforcement Learning Finetunes Small Subnetworks in Large Language Models
+
+![width:600px center](attachments/Pasted%20image%2020250526112555.png)
