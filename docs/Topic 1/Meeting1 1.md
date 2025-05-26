@@ -137,6 +137,23 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 ![Pasted image 20250220135415.png](attachments/Pasted%20image%2020250220135415.png)
 
 ---
+# Value-based RL
+## Policy iteration
+- Bellman’s optimality equations
+	- $V^* (s) = \max_a \Bigg[ R(s,a)+\gamma \mathbb{E}_{p_S (s'|s,a)}[V^* (s')]  \Bigg]$
+- Bellman operator
+	- $\mathcal{B} V(s):= \max_a \Bigg[ R(s,a)+\gamma \mathbb{E}_{T(s'|s,a)}[V(s')]\Bigg]$
+- Contraction mapping theorem
+
+- $\pi' (s)=\arg \max_a \bigg[ R(s,a)+ \gamma \mathbb{E}[V_\pi (s')] \bigg]$
+
+---
+# Value-based RL
+## Policy iteration
+
+![width:1000px center](attachments/Pasted%20image%2020250526114429.png)
+
+---
 # Policy Optimization
 ## Policy Gradient Theorem
 ![Pasted image 20250220135043.png](attachments/Pasted%20image%2020250220135043.png)
