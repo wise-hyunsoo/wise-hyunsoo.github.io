@@ -215,7 +215,7 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 # Appendix
 - [SFT Memorizes, RL Generalizes](https://kakaoent.atlassian.net/wiki/x/BYPv4Q)
 
-![](attachments/Pasted%20image%2020250526112856.png)
+![width:600px center](attachments/Pasted%20image%2020250526112856.png)
 
 ---
 # Appendix
