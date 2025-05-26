@@ -78,6 +78,7 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 
 
+
 ---
 # Overview of RL
 <div class="columns">
@@ -175,6 +176,15 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 	- 해결책: baseline을 사용
 	- Any function that satisfies $\mathbb{E}[\nabla_\theta b(s)]=0$ is a valid baseline.
 - 결과적으로 $\nabla_\theta J(\theta) = \mathbb{E}_{\rho_\theta (s) \pi_\theta(a|s)} [(Q_{\pi_\theta}(s,a)-b(s))\nabla_\theta \log \pi_\theta (a|s)]$
+
+---
+# Policy optimization
+## Variance reduction in REINFORCE
+- 결과적으로 $\nabla_\theta J(\theta) = \mathbb{E}_{\rho_\theta (s) \pi_\theta(a|s)} [(Q_{\pi_\theta}(s,a)-b(s))\nabla_\theta \log \pi_\theta (a|s)]$
+
+![w:650 center](attachments/Pasted%20image%2020250526105114.png)
+
+![Pasted image 20250526105221.png](attachments/Pasted%20image%2020250526105221.png)
 
 ---
 # Policy Optimization
