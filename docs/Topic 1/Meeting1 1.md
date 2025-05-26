@@ -116,16 +116,6 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
-## GAE
-![w:650 center](attachments/Pasted%20image%2020250220134342.png)
-
----
-# Overview of RL
-## GAE
-![Pasted image 20250220134516.png](attachments/Pasted%20image%2020250220134516.png)
-
----
-# Overview of RL
 
 ## Value function, Q-function, and Reward
 
@@ -188,7 +178,7 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 
 ---
 # Policy Optimization
-- PPO
+- PPO, DPO, GRPO ...
 
 
 ---
@@ -223,3 +213,17 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 # RLVR
 - Tulu 3
 ![Pasted image 20250220150058.png](attachments/Pasted%20image%2020250220150058.png)
+
+
+---
+# Appendix
+https://kakaoent.atlassian.net/wiki/x/BYPv4Q
+- SFT Memorizes, RL Generalizes
+![Pasted image 20250526105837.png](attachments/Pasted%20image%2020250526105837.png)
+
+---
+# Appendix
+
+- Reinforcement Learning Finetunes Small Subnetworks
+in Large Language Models
+![Pasted image 20250526110002.png](attachments/Pasted%20image%2020250526110002.png)
