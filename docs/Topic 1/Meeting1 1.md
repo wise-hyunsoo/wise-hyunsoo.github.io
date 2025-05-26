@@ -173,6 +173,8 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 ![Pasted image 20250220135800.png](attachments/Pasted%20image%2020250220135800.png)
 - 단점: estimation $G_t$의 분산이 큼 
 	- 해결책: baseline을 사용
+	- Any function that satisfies $\mathbb{E}[\nabla_\theta b(s)]=0$ is a valid baseline.
+- 결과적으로 $\nabla_\theta J(\theta) = \mathbb{E}_{\rho_\theta (s) \pi_\theta(a|s)} [(Q_{\pi_\theta}(s,a)-b(s))\nabla_\theta \log \pi_\theta (a|s)]$
 
 ---
 # Policy Optimization
