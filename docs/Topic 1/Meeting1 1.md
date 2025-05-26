@@ -20,13 +20,14 @@ AI Lab
 - Overview of RL
 	- Terminologies
 	- Value-based / Policy-based / Model-based RL
+- Value-based RL
+	- Policy iteration
 - Policy Optimization
 	- Policy Gradient Theorem
 	- REINFORCE
-	- PPO
 - Reinforcement Learning with LLMs
 - Reinforcement Learning with Verifiable Rewards
-- How to apply RL to Colorization(밑색/채색)
+- Appendix
 ---
 
 # Preliminaries
