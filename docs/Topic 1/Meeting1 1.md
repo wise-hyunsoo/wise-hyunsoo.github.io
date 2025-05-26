@@ -127,13 +127,16 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 # Overview of RL
 
 ## Value function & Q-function
-![[Pasted image 20250526103154.png]]
+![Pasted image 20250526103337.png](attachments/Pasted%20image%2020250526103337.png)
+![Pasted image 20250526103348.png](attachments/Pasted%20image%2020250526103348.png)
 
-
+- Reward $r_t:= R(s_t,a_t)$
 ## Objective function of RL
 
 $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 - policy를 neural network의 parameter $\theta$를 도입하여 위의 목적함수를 최대화하도록 훈련해서 optimal policy를 얻고자 하는 것이 RL의 목표
+- Optimal policy
+![Pasted image 20250526103521.png](attachments/Pasted%20image%2020250526103521.png)
 
 ---
 <!-- _class: tinytext -->
