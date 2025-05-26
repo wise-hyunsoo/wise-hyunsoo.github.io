@@ -29,7 +29,11 @@ AI Lab
 - Reinforcement Learning with Verifiable Rewards
 - Appendix
 ---
+# Main Question
 
+## How are Supervised Fine-Tuning and Reinforcement Learning different?
+
+---
 # Preliminaries
 ## Random variables
 $X: \Omega \rightarrow E$
