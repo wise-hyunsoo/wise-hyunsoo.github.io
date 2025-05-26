@@ -126,28 +126,28 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 ---
 # Overview of RL
 
-## Value function & Q-function
-![Pasted image 20250526103337.png](attachments/Pasted%20image%2020250526103337.png)
-![Pasted image 20250526103348.png](attachments/Pasted%20image%2020250526103348.png)
+## Value function, Q-function, and Reward
 
+- $V_\pi (s) := \mathbb{E}_\pi [\sum_{t=0}^\infty \gamma^t r_t | s_0 =s]$
+- $Q_\pi (s,a) := \mathbb{E}_\pi [ \sum_{t=0}^\infty \gamma^t r_t | s_0=s, a_0=a]$
 - Reward $r_t:= R(s_t,a_t)$
 ## Objective function of RL
 
 $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 - policy를 neural network의 parameter $\theta$를 도입하여 위의 목적함수를 최대화하도록 훈련해서 optimal policy를 얻고자 하는 것이 RL의 목표
-- Optimal policy
-![Pasted image 20250526103521.png](attachments/Pasted%20image%2020250526103521.png)
+- Optimal policy $\pi*=\arg \max_\pi \mathbb{E}_{p_0(s_0)} [ V_\pi (s_0)]$
+
 
 ---
 <!-- _class: tinytext -->
 # Overview of RL
 - Value-based RL
-	- Q functiond을 학습하여 $\pi(s) = \arg \max_{a\in \mathcal{A}} Q(s,a)$를 policy로 사용
-	- 단점
+	- Q function을 학습하여 $\pi(s) = \arg \max_{a\in \mathcal{A}} Q(s,a)$를 policy로 사용
+	- World model을 알 때, 즉 state transition $p_S(s'|s,a)$를 알 때와, 모를 때로 나눠서 접근
+	-  단점
 		- function approximation (such as neural networks)
 		- bootstrapped value function estimation (TD-like method)
 		- off-policy learning
-		- This combination : `the deadly triad`
 		- RL 알고리즘 불안정함
 - Policy-based RL
 	- Policy search method
