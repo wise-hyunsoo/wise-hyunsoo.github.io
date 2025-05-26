@@ -181,6 +181,10 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 - PPO, DPO, GRPO ...
 - [DPO vs. PPO](https://kakaoent.atlassian.net/wiki/spaces/RTC/pages/3772907636/DPO+vs.+PPO)
 - [More on PPO](https://kakaoent.atlassian.net/wiki/spaces/RTC/pages/3773169715/More+on+PPO)
+- [GRPO and Insights of RL](https://kakaoent.atlassian.net/wiki/spaces/RTC/pages/3782509435/GRPO+and+Insights+of+RL)
+
+
+ ![width:900px center](attachments/Pasted%20image%2020250526111209.png)
 
 ---
 # Reinforcement Learning with LLMs
