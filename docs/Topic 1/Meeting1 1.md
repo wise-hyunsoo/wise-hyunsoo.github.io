@@ -97,9 +97,12 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ![width:800px][[Pasted image 20250526091826.png]]
 </div>
+</div>
 
 ---
+
 # Overview of RL
+
 ## Terminologies
 - Advantage function $A:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
 	- $A(s,a):=Q(s,a)-V(s)$
@@ -122,6 +125,11 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 ---
 # Overview of RL
+
+## Value function & Q-function
+![[Pasted image 20250526103154.png]]
+
+
 ## Objective function of RL
 
 $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
