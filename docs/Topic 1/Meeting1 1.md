@@ -179,7 +179,8 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 ---
 # Policy Optimization
 - PPO, DPO, GRPO ...
-
+- [DPO vs. PPO](https://kakaoent.atlassian.net/wiki/spaces/RTC/pages/3772907636/DPO+vs.+PPO)
+- [More on PPO](https://kakaoent.atlassian.net/wiki/spaces/RTC/pages/3773169715/More+on+PPO)
 
 ---
 # Reinforcement Learning with LLMs
@@ -219,11 +220,11 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 # Appendix
 https://kakaoent.atlassian.net/wiki/x/BYPv4Q
 - SFT Memorizes, RL Generalizes
-![Pasted image 20250526105837.png](attachments/Pasted%20image%2020250526105837.png)
+![width:800px center](attachments/Pasted%20image%2020250526105837.png)
 
 ---
 # Appendix
 
 - Reinforcement Learning Finetunes Small Subnetworks
 in Large Language Models
-![Pasted image 20250526110002.png](attachments/Pasted%20image%2020250526110002.png)
+![width:800px center](attachments/Pasted%20image%2020250526110002.png)
