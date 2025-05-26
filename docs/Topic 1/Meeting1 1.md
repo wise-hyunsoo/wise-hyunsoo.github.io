@@ -76,9 +76,6 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 
 
 
-
-
-
 ---
 # Overview of RL
 <div class="columns">
@@ -96,22 +93,10 @@ Goal: Calculate $\mathbb{E}_{x\sim p(x)} [f(x)]$
 </div>
 <div class="columns-right">
 
-![width:800px][[Pasted image 20250526091826.png]]
+![width:800px](attachments/Pasted%20image%2020250526091826.png)
+
 </div>
 </div>
-
----
-
-# Overview of RL
-
-## Terminologies
-- Advantage function $A:\mathcal{S}\times \mathcal{A}\rightarrow \mathbb{R}$
-	- $A(s,a):=Q(s,a)-V(s)$
-- Generalized advantage estimation (GAE)
-	- Advantage function을 계산하려면 state와 action 값이 필요하다.
-	- 그런데 이러한 state, action은 (policy와 initial state의 확률분포에 depend하는) random variable이다.
-	- 따라서 Advantage function의 evaluation 결과 $A(s,a)$도 random variable
-	- 이 random variable을 estimate하기 위해 $R, V$를 통해 Monte Carlo estimate을 하는데 그 estimation의 variance를 줄이기 위해 나온 방법이 GAE
 
 
 ---
@@ -222,13 +207,12 @@ $$L(\theta) = \mathbb{E}_{s_0\sim p_0 (s)}[V_{\pi_\theta}(s_0)]$$
 
 ---
 # Appendix
-https://kakaoent.atlassian.net/wiki/x/BYPv4Q
-- SFT Memorizes, RL Generalizes
-![width:800px center](attachments/Pasted%20image%2020250526105837.png)
+
+- [SFT Memorizes, RL Generalizes](https://kakaoent.atlassian.net/wiki/x/BYPv4Q)
+![width:600px center](attachments/Pasted%20image%2020250526105837.png)
 
 ---
 # Appendix
 
-- Reinforcement Learning Finetunes Small Subnetworks
-in Large Language Models
+- Reinforcement Learning Finetunes Small Subnetworks in Large Language Models
 ![width:800px center](attachments/Pasted%20image%2020250526110002.png)
