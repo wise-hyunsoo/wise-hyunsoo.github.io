@@ -43,6 +43,7 @@
 	- 품질 관리 (태그 누락, 오류데이터 필터링)
 	- 로컬라이징 (지역별 POI 중요도 차이 반영 필요)
 - 대중교통 데이터 원천 -> gtfs 변환프로그램
+- polyline, polygon, aoi(area of interest), wps
 Example: link to [Mermaid Diagrams](../Features/Mermaid%20Diagrams.md) under `Features`
 
 
