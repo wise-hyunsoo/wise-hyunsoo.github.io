@@ -36,6 +36,12 @@
 	- 3D tiles 이해
 	- Cesium Native 호라용
 	- 지도 내 실사 타일 구조
+- POI 컨버팅 시 고려 포인트
+	- 데이터 정규화
+	- 줌 레벨 필터링 (레벨별 표시 POI 제한 및 우선순위 체계 구성)
+	- 시각적 처리 (중첩 방지, 우선순위 기반 렌더링)
+	- 품질 관리 (태그 누락, 오류데이터 필터링)
+	- 로컬라이징 (지역별 POI 중요도 차이 반영 필요)
 Example: link to [Mermaid Diagrams](../Features/Mermaid%20Diagrams.md) under `Features`
 
 
