@@ -42,6 +42,7 @@
 	- 시각적 처리 (중첩 방지, 우선순위 기반 렌더링)
 	- 품질 관리 (태그 누락, 오류데이터 필터링)
 	- 로컬라이징 (지역별 POI 중요도 차이 반영 필요)
+- 대중교통 데이터 원천 -> gtfs 변환프로그램
 Example: link to [Mermaid Diagrams](../Features/Mermaid%20Diagrams.md) under `Features`
 
 
