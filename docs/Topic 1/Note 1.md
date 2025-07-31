@@ -13,6 +13,7 @@
 - AI기반 맞춤형 추천
 	- 이동 습관 학습 개인화된 알림 상황 인지형 경로 제안
 - 생활 밀착형 이동정보 서비스
+- 바이두맵 고덕맵
 Example: link to [Mermaid Diagrams](../Features/Mermaid%20Diagrams.md) under `Features`
 
 
