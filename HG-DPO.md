@@ -1,4 +1,4 @@
-SFT가 이전 stage에서의 학습된 knowledge를 잊어버린다는 것이 흥미로웠는데, 이 연구에서 지칭하는 Supervised Fine-Tuning(SFT)에서 구체적으로 training parameter에 대해 궁금한 점이 있어서 질문을 남겼습니다. SFT가 이전 stage의 knowledge를 잊어버리는 것이 DPO학습과 SFT의 training parameter가 달라서 생기는 현상이라고 봐야할지, 아니면, 즉 training parameter가 같다면 Diffusion-DPO loss와 Noise prediction loss가 human preference에 더 align된 optimization의 결과
+SFT가 이전 stage에서의 학습된 knowledge를 잊어버린다는 것이 흥미로웠는데, 이 연구에서 지칭하는 Supervised Fine-Tuning(SFT)에서 구체적으로 training parameter에 대해 궁금한 점이 있어서 질문을 남겼습니다. SFT가 이전 stage의 knowledge를 잊어버리는 것이 DPO학습과 SFT의 training parameter가 달라서 생기는 현상이라고 봐야할지, 아니면, 즉 training parameter가 같다면, Diffusion-DPO loss와 Noise prediction loss의 적용 여부가 이전 stage에서의 학습된 knowledge를 잊어버리는 현상에 기인하는 것으로 볼 수 있을지 궁금합니다. [Table 2.의 마지막 행(Normal+SFT)과 Hard 행의 결과를 비교함으로 인해]
 
 1. Appendix에서 ϵ_base 가 SD1.5 기반의 majicmix-v7 모델을 backbone모델로 두고 이를 SFT했다고 하는데, 혹시 이 SFT에서의 training parameter가 backbone모델의 full-parameter인지 아니면 (UNet upsampling block들의) LoRA parameter일까요?
 2. Table 2.의 결과의 맨 마지막 3행의 결과들(+SFT 결과들)에서 이 SFT는 ϵ_base의 기존 parameter는 freeze하고 (UNet upsampling block들의) LoRA parameter만 SFT를 한 것일까요?
