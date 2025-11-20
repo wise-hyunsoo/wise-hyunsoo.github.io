@@ -5,7 +5,7 @@
 - MLLM-as-a-Judge 벤치마크에서 모델의 bias가 있다고 하셨는데, 여기서 말하는 bias가 어떤 의미인지? modality에 bias된 응답, 일부 modality를 무시하고 응답을 한다는 의미인지? 이를 개선하기 위해 Chain-of-judgement를 사용하셨는데 CoJ는 어떤걸 말하는 건지? Reasoning LLM에서 Chain-of-thought을 통해서 응답의 reasoning capability를 개선한것과 유사한 느낌으로, 모델이 뭔가 계속 판단의 sequence를 스스로 생성해서 판단을 이어나가는건지? 아니면 뭔가 predefined checklist를 줘서 모델이 그 checklist에 맞게 판단을 이어나가는 건지?
 
 1. ICLR
-- 이 연구를
+- 이 연구를 text-to-image diffusion 모델에서 
 
 2. ICCVW
 - Masked image modelling에서 Implicit neural representation을 이용한 연구인것 같은데, Implicit neural representation이 그 특성 자체가 좌표에서 pixel값을 내뱉는 그런 모델이어서, arbitrary resolution에 대해서 출력이 가능하다는 특징이 있다고 알고 있는데, 혹시 이 연구에서 제안한 Masked Implicit Neural representation에서도 이런식으로 고해상도 이미지를 생성 혹은 복원하는데 사용할 수 있을까요? 
