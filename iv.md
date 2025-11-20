@@ -7,7 +7,8 @@
 1. ICLR
 
 2. ICCVW
-3. 
+- Masked image 
+- Masked Implicit neural representation 프레임워크는 Implicit neural representation과 그 Implicit neural representation의 MLP weight를 내뱉는 transformer based hypernetwork로 구성되어 있어서, 얼핏 보기에는 굉장히 모델이 커보였는데, Parameter같은걸 보면 기존 MAE 보다 훨씬 작은 parameter를 사용한것으로 보이는데, 파라메터 수 뿐만 아니라 실제 computing cost(연산량이나 속도) 측면에서도 더 빨랐는지?
 
 3. bootcamp ai tech
 - 일종의 강의 조교 활동 인지? 강의하는 분이 따로 있고, 그분을 support하는 역할인지? 아니면 주도적으로 강의내용을 기획하고 강의자료를 작성하고, 그 자료를 바탕으로 직접 강의도 하는 역할인지?
