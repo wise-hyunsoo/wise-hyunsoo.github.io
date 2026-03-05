@@ -25,21 +25,23 @@
 
 지금 하려는건 강화학습인데, task는 다음과 같아. 
 
-[Task]
+[Task 정보]
 - Reference 밑색 이미지 A와 검은색 선과 흰배경으로 이루어진 선화이미지 B가 주어졌을때, A를 참고해서 B의 밑색을 칠하는 칠하는 Task
 - 그런데 그 밑색을 칠하는 과정은 다음과 같은 단계로 진행되어야함
 - 먼저 A의 밑색으로 이루어진 Scribble 이미지를 모델로 부터 얻고, 그 Scribble 이미지가 LazyBrush라는 알고리즘을 통해, 선화 B에 대한 밑색이 최종적으로 완성
 - 구체적으로 Scribble 이미지는 https://huggingface.co/Qwen/Qwen3.5-27B 와 같은 VLM을 이용해서, Scribble 이미지로 렌더링 될 수 있는 텍스트(string)을 출력하게 하고, 그 텍스트로부터 Scribble 이미지를 만들고, 그 이미지와 선화 B로 밑색이 완성되도록 해야함.
-- Scribble로 렌더링 될 수 있도록 하기 위해, 3차 베지에 커브의 정보들을 입력하는 식으
-
-[모델 초기 아이디어]
-위와 같은 Task에 대해서 우리는 지금 Scribble 이미지를 생성해야 되는데, Scribble 이미지는 "그림그리는 action"으로 완성되도록 해야함 즉, 어떤 모델이 A, B를 입력받고 그림그리는 action을 내뱉는데, 그 action은 (시작점 좌표, 끝점 좌표, 선분두께, 밑색RGB값) 으로 이루어진 정보여야 되고, 그 action 정보가 실제 scribble 이미지를 완성하도록 하고 싶어.
+- Scribble로 렌더링 될 수 있도록 하기 위해, [3차 베지에 곡선의 정보들과 그 곡선의 두께 및 색상정보] 들의 집합으로 표현할 수 있게 VLM의 출력 구성을 해줘.
+- 또한 Qwen VLM 들이 https://github.com/QwenLM/Qwen3-VL/blob/main/qwen-vl-finetune/tools/process_bbox.ipynb 와 같은 Box 좌표를 활용하는 것도 참고해서 구현해주면 좋을 것 같아.
 
 [모델의 대략적 제안]
-- https://huggingface.co/Qwen/Qwen3.5-27B 와 같은 VLM으로 Action을 내뱉어서,  같은걸로 할 수 있지 않을까도 싶음 
-- 
-- 먼저 Dinov3와 같은걸로 인코딩된걸 LLM 혹은 VLM 모델 혹은 임의의 hybrid linear attention을 사용한 transformer 가 들어간 seq-to-seq 모델(decoder only transformer)로 그 action을 출력하도록 하고 싶음 - Dinov3 이후에 decoder only transformer를 사용하는 것 대신 그냥 
-- 가능하면 하나의 모델로 모든걸 할수 있는게 선호됨 - 그리고 훈련은 오직 RL, 예를들어 PPO나 GRPO로만 가지고 되었으면 좋겠음 [action의 개선 관련] - 지금 뭔가 action이 선분으로만 이루어져 있는데, 뭔가 선분이 아닌데 정보로 seq-to-seq 모델이 action을 출력하게 해서 직선보다 조금더 자유로운 scribble이 생성되면 좋겠음 - 그래서 3차 베지에 곡선(Bézier Curve) 곡선을 활용해서 이러한걸 일반화 할 수 있지 않을까 싶은데 좋을지 모르겠음
+- https://huggingface.co/Qwen/Qwen3.5-27B 와 같은 VLM으로 Action을 내뱉어야 함
+- 훈련은 오직 RL, 예를들어 GRPO로만 가지고 되었으면 좋겠음
+- Reward는 B의 실제 완성 밑색 이미지와, 이 과정을 거쳐서 나온 밑색이미지(Scribble 이미지의 LazyBrush 결과)와의 Negative MSELoss 혹은 Negative L1 Loss로 구성하려고 해.
+- RL을 위해서 TRL이나 VeRL과 같은 강화학습 framework를 사용하고, Rollout을 위해 vllm을 꼭 사용하면 좋을 것 같아.
+
+[action의 개선 관련] 
+- "그림 그리는 Action", 즉 3차 베지에 곡선 정보, 곡선 두께, 색상정보 외에도, action 중에 레퍼런스 이미지 A의 실제 밑색 RGB값을 찍어서 VLM 모델이 직접 확인하는 Action도 들어가면 좋을 것 같아.
+- 또한, 모델 상 성능향상에 필요하다면 입력 이미지 A, B 말고도 A나 B의 Crop을 알아서 해서 확대된 이미지도 VLM이 볼 수 있도록 action을 구성해도 좋을 것 같아.
 
 ---
-위 내용과 관련해서 모델 구조와 action의 형태를 조금더 구체적으로 다듬어서 제안해 줄 수 있을까?
+위 내용과 관련해서 Dataset 설계 및 모델 구조와 action의 형태를 구체적으로 다듬어서 코드로 작성해줘. 
