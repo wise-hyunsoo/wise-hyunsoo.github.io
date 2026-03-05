@@ -28,7 +28,9 @@
 [Task]
 - Reference 밑색 이미지 A와 검은색 선과 흰배경으로 이루어진 선화이미지 B가 주어졌을때, A를 참고해서 B의 밑색을 칠하는 칠하는 Task
 - 그런데 그 밑색을 칠하는 과정은 다음과 같은 단계로 진행되어야함
-- 먼저 A의 밑색으로 이루어진 Scribble 이미지를 모델로 부터 얻고, 그 Scribble 이미지가 LazyBrush라는 알고리즘을 통해, 선화 B에 대한 밑색이 최종적으로 완성 
+- 먼저 A의 밑색으로 이루어진 Scribble 이미지를 모델로 부터 얻고, 그 Scribble 이미지가 LazyBrush라는 알고리즘을 통해, 선화 B에 대한 밑색이 최종적으로 완성
+- 구체적으로 Scribble 이미지는 https://huggingface.co/Qwen/Qwen3.5-27B 와 같은 VLM을 이용해서, Scribble 이미지로 렌더링 될 수 있는 텍스트(string)을 출력하게 하고, 그 텍스트로부터 Scribble 이미지를 만들고, 그 이미지와 선화 B로 밑색이 완성되도록 해야함.
+- Scribble로 렌더링 될 수 있도록 하기 위해, 3차 베지에 커브의 정보들을 입력하는 식으
 
 [모델 초기 아이디어]
 위와 같은 Task에 대해서 우리는 지금 Scribble 이미지를 생성해야 되는데, Scribble 이미지는 "그림그리는 action"으로 완성되도록 해야함 즉, 어떤 모델이 A, B를 입력받고 그림그리는 action을 내뱉는데, 그 action은 (시작점 좌표, 끝점 좌표, 선분두께, 밑색RGB값) 으로 이루어진 정보여야 되고, 그 action 정보가 실제 scribble 이미지를 완성하도록 하고 싶어.
