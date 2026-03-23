@@ -44,4 +44,4 @@ University of XYZ
 - might be useful for References
 
 
-현재 선화에 stroke를 해야하는 유력한 좌표들을 추출하는 코드를 아래에 첨부하는데, 여기에 있는 xs_sorted_clustered 와 ys_sorted_clustered 의 좌표들을 "paint dots"의 target_x, target_y로
+현재 선화에 stroke를 해야하는 유력한 좌표들을 추출하는 코드를 아래에 첨부하는데, 여기에 있는 xs_sorted_clustered 와 ys_sorted_clustered 의 좌표들을 "paint dots"의 target_x, target_y로 사용하도록 하고 싶어. 즉, 모델은 target_x, target_y의 정보는 아래 코드로 미리 이용할 수 있게하고, 모델이 내부적으로 판단해서 어떤 src_x, src_y를 잘 판단해서 stroke를 할 수 있도록, 코드를 전반적으로 수정해 줄 수 있을까?
