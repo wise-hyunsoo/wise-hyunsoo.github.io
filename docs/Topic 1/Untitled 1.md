@@ -44,4 +44,4 @@ University of XYZ
 - might be useful for References
 
 
-현재 선화에 stroke를 해야하는 유력한 좌표들을 추출하는 코드를 아래에 첨부하는데, 여기에 있는 xs_sorted_clustered 와 
+현재 선화에 stroke를 해야하는 유력한 좌표들을 추출하는 코드를 아래에 첨부하는데, 여기에 있는 xs_sorted_clustered 와 ys_sorted_clustered 의 좌표들을 "paint dots"의 target_x, target_y로
