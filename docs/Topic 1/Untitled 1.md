@@ -42,3 +42,6 @@ University of XYZ
 
 - use `<!-- _class: tinytext -->` to make some text tiny
 - might be useful for References
+
+
+현재 선화에 stroke를 해야하는 유력한 좌표들을 추출하는 코드를 아래에 첨부하는데, 여기에 있는 xs_sorted_clustered 와 
